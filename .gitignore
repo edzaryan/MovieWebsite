@@ -1,0 +1,54 @@
+# Node.js / npm / pnpm / yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist/
+/dist-ssr/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# VSCode and IDE config
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ASP.NET specific
+/bin/
+/obj/
+/.vs/
+
+# TypeScript build
+*.tsbuildinfo
+
+# Optional: IDE files (if needed, remove the line if you don't want to exclude them)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Coverage reports (if you're using a testing framework that generates these)
+coverage/
+
+# Environment files (to exclude secrets and config files)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
