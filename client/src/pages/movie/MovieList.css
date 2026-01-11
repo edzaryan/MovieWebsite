@@ -1,0 +1,5 @@
+
+.movieListBlock {
+    display: flex;
+    gap: 18px;
+}

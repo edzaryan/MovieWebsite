@@ -1,0 +1,19 @@
+
+.individualMovie {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.individualMovie div img {
+    width: 225px;
+    height: 300px;
+}
+
+.individualMovie p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+}
+
