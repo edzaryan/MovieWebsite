@@ -1,4 +1,5 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom';
+import GenreForm from './GenreForm';
 
 function EditGenrePage() {
     const { id }: any = useParams(); 
@@ -6,7 +7,13 @@ function EditGenrePage() {
     return (
         <>
             <h3>Edit Genre</h3>
-            <Link to='/genre/create' className='btn btn-primary'>Edit Genre</Link>
+            
+            <GenreForm 
+                model={{ name: 'Edgar' }} 
+                onSubmit={async value => {
+                    await new Promise(r => setTimeout(r, 1000));
+                    console.log(value);
+            }} />
         </>
     )
 }

@@ -1,11 +1,16 @@
-import { ErrorMessage, Field } from "formik";
+import { ErrorMessage, Field } from 'formik';
 
-function TextField() {
+interface textFieldProps {
+    field: string;
+    displayName: string;
+}
+
+function TextField({ field, displayName }: textFieldProps) {
     return (
         <div className='form-group mb-3'>
-            <label htmlFor='name'>Name</label>
-            <Field name='name' id='name' className='form-control mt-1' />
-            <ErrorMessage name='name'>
+            <label htmlFor={field}>{displayName}</label>
+            <Field name={field} id={field} className='form-control mt-1' />
+            <ErrorMessage name={field}>
                 {msg => <div className='text-danger'>{msg}</div>}                        
             </ErrorMessage>
         </div>

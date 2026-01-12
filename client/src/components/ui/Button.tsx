@@ -5,14 +5,16 @@ interface buttonProps {
     onClick?(): void;
     type: 'button' | 'submit';
     className?: string;
+    disabled: boolean; 
 }
 
-function Button({ children, onClick, className, type = 'button' }: buttonProps) {
+function Button({ children, onClick, className, disabled = false, type = 'button' }: buttonProps) {
     return (
         <button 
-            className={`btn btn-primary ${className}`} 
+            className={`btn ${className} ${disabled ? 'btn-secondary' : 'btn-primary'}`} 
             onClick={onClick}
             type={type}
+            disabled={disabled}
         >
             {children}
         </button>
