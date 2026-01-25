@@ -1,4 +1,5 @@
 import { RouterProvider } from "react-router-dom";
+import './validation/yupExtensions.ts';
 import { router } from "./routes";
 import './App.css';
 

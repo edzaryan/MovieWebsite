@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
+import MovieTheaterForm from "./MovieTheaterForm";
 
 function CreateMovieTheaterPage() {
     return (
         <>
-            <h3>CreateMovieTheaterPage Page</h3>
-            <Link to='/movietheater/create' className='btn btn-primary'>Create MovieTheater</Link>
+            <h3>Create MovieTheater</h3>
+            <MovieTheaterForm
+                model={{ name: '' }}
+                onSubmit={async value => {
+                    await new Promise(r => setTimeout(r, 1000));
+                    console.log(value);
+                }} 
+            />
         </>
     )
 }

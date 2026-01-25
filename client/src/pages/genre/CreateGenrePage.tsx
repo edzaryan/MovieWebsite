@@ -1,8 +1,8 @@
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import GenreForm from './GenreForm';
 
 function CreateGenrePage() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     return (
         <>
@@ -13,7 +13,8 @@ function CreateGenrePage() {
                 onSubmit={async value => {
                     await new Promise(r => setTimeout(r, 1000));
                     console.log(value);
-            }} />
+                }} 
+            />
         </>
     )
 }

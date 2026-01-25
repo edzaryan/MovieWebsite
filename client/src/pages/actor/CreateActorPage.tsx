@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
+import ActorForm from "./ActorForm";
 
 function CreateActorPage() {
     return (
         <>
             <h3>Create Actor</h3>
-            <Link to='/actor/create' className='btn btn-primary'>Create Actor</Link>
+            <ActorForm 
+                model={{ name: '', dateOfBirth: undefined }} 
+                onSubmit={async value => {
+                    await new Promise(r => setTimeout(r, 1000));
+                    console.log(value);
+                }} 
+            />
         </>
     )
 }

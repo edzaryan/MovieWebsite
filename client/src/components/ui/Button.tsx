@@ -3,15 +3,21 @@ import React from "react";
 interface buttonProps {
     children: React.ReactNode;
     onClick?(): void;
-    type: 'button' | 'submit';
+    type?: 'button' | 'submit';
     className?: string;
-    disabled: boolean; 
+    disabled?: boolean; 
 }
 
-function Button({ children, onClick, className, disabled = false, type = 'button' }: buttonProps) {
+function Button({ 
+    onClick, 
+    children, 
+    type = 'button',
+    disabled = false, 
+    className = 'btn-primary', 
+}: buttonProps) {
     return (
         <button 
-            className={`btn ${className} ${disabled ? 'btn-secondary' : 'btn-primary'}`} 
+            className={`btn ${className} ${disabled && 'btn-secondary'}`} 
             onClick={onClick}
             type={type}
             disabled={disabled}

@@ -1,12 +1,19 @@
-import { Link, useParams } from "react-router-dom";
+import MovieTheaterForm from "./MovieTheaterForm";
+import { useParams } from "react-router-dom";
 
 function EditMovieTheaterPage() {
     const { id }: any = useParams();
     
     return (
         <>
-            <h3>Edit MovieTheater Page</h3>
-            <Link to='/movietheater/edit/12' className='btn btn-primary'>Edit MovieTheater</Link>
+            <h3>Edit Movie Theater</h3>
+            <MovieTheaterForm
+                model={{ name: 'Sambil', latitude: 80, longitude: 80 }}
+                onSubmit={async value => {
+                    await new Promise(r => setTimeout(r, 1000));
+                    console.log(value);
+                }} 
+            />
         </>
     )
 }

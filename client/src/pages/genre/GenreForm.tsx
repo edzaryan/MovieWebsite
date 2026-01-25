@@ -1,12 +1,11 @@
+import { Form, Formik, type FormikHelpers } from "formik";
 import TextField from "../../components/form/TextField";
-import { nameSchema } from "../../validation/schemas";
 import type { genreCreationDTO } from "./genre.model";
 import Button from "../../components/ui/Button";
 import { Link } from "react-router-dom";
-import { Form, Formik, type FormikHelpers } from "formik";
 import * as Yup from 'yup';
 
-export interface genreFormProps {
+interface genreFormProps {
     model: genreCreationDTO;
     onSubmit(values: genreCreationDTO, action: FormikHelpers<genreCreationDTO>): void;
 }
@@ -17,7 +16,7 @@ function GenreForm({ model, onSubmit }: genreFormProps) {
             initialValues={model}
             onSubmit={onSubmit}
             validationSchema={Yup.object({
-                name: nameSchema
+                name: Yup.string().required('Name is required').firstLetterUppercase()
             })}
         >
             {formikProps => (
