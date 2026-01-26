@@ -1,4 +1,5 @@
 // import { useParams } from "react-router-dom";
+import type { actorMovieDTO } from "../actor/actor.model";
 import type { genreDTO } from "../genre/genre.model";
 import type { movieTheaterDTO } from "../movietheater/movieTheater.model";
 import MovieForm from "./MovieForm";
@@ -11,6 +12,15 @@ function EditMoviePage() {
 
     const selectedMovieTheaters: movieTheaterDTO[] = [{ id: 1, name: 'Sambil' }];
     const nonSelectedMovieTheaters: movieTheaterDTO[] = [{ id: 2, name: 'Agora' }];
+
+    const selectedActors: actorMovieDTO[] = [
+        { 
+            id: 1, 
+            name: 'Tom Holland', 
+            character: 'Geralt', 
+            picture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe4pq4DVlzBV5uDWNCgrAGhz_alNCtYqrpsw&s' 
+        }
+    ];
      
     return (
         <div>
@@ -33,7 +43,7 @@ function EditMoviePage() {
                 nonSelectedGenres={nonSelectedGenres}
                 selectedMovieTheaters={selectedMovieTheaters}
                 nonSelectedMovieTheaters={nonSelectedMovieTheaters}
-                selectedActors={[]}
+                selectedActors={selectedActors}
             />
         </div>
     );
