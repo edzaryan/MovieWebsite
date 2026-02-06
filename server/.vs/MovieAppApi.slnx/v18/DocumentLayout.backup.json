@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\services\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\services\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|c:\\users\\edzar\\onedrive\\desktop\\movie app\\server\\movieappapi\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414F1DE2-4366-0C53-6A02-3B493222BF75}|MovieAppApi\\MovieAppApi.csproj|solutionrelative:movieappapi\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Program.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Program.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Program.cs",
+              "RelativeToolTip": "MovieAppApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T18:42:11.132Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Entities\\Genre.cs",
+              "RelativeToolTip": "MovieAppApi\\Entities\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:03:47.742Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MovieAppApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\appsettings.Development.json",
+              "RelativeToolTip": "MovieAppApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T01:30:45.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieAppApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\appsettings.json",
+              "RelativeToolTip": "MovieAppApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T01:30:24.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Services\\IRepository.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Services\\IRepository.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Services\\IRepository.cs",
+              "RelativeToolTip": "MovieAppApi\\Services\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:42:57.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InMemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Services\\InMemoryRepository.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Services\\InMemoryRepository.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Services\\InMemoryRepository.cs",
+              "RelativeToolTip": "MovieAppApi\\Services\\InMemoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:28:28.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "MovieAppApi\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\edzar\\OneDrive\\Desktop\\Movie App\\server\\MovieAppApi\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "MovieAppApi\\Controllers\\GenresController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwCgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:03:17.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
